@@ -1,0 +1,44 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL Server Local",
+            "database": "testDB",
+            "username": "sa",
+            "password": "Nounou23"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Postgres Local",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "nounou23"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "group": "cod1",
+            "database": "BD",
+            "username": "root",
+            "password": "nounou23"
+        }
+    ]
+}
